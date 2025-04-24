@@ -5,7 +5,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**protean_datasets** | [**List[ProteanDataset]**](ProteanDataset.md) | List of datasets. | [optional] 
+**datasets** | [**List[ProteanDataset]**](ProteanDataset.md) | List of datasets. | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

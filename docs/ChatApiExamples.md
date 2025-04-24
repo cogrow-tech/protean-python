@@ -1,4 +1,4 @@
-# Question
+# question
 Generate RAG enabled model response for the provided prompt.
 
 **Base request that includes foundational configuration parameters**
