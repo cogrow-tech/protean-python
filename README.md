@@ -7,6 +7,8 @@ The library includes type definitions for all request params and response fields
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
 *ChatApi* | [**question**](docs/ChatApi.md#question) | **POST** /api/chat-service/question | RAG enabled text completion.
+*DataApi* | [**create_fixed_size_chunks**](docs/DataApi.md#create_fixed_size_chunks) | **POST** /api/data-service/data/transformation/chunk/fixed-size | Splits text into chunks based on token count.
+*DataApi* | [**create_semantic_chunks**](docs/DataApi.md#create_semantic_chunks) | **POST** /api/data-service/data/transformation/chunk/semantic | Splits text into chunks that are semantically similar.
 *DatasetApi* | [**create_dataset**](docs/DatasetApi.md#create_dataset) | **POST** /api/dataset-service/datasets | Create dataset.
 *DatasetApi* | [**create_documents_in_dataset**](docs/DatasetApi.md#create_documents_in_dataset) | **POST** /api/dataset-service/datasets/{id}/datasources/documents | Create documents in the dataset.
 *DatasetApi* | [**create_documents_in_datasource**](docs/DatasetApi.md#create_documents_in_datasource) | **POST** /api/dataset-service/datasets/{id}/datasources/{datasourceId}/documents | Create documents in the datasource.
@@ -20,18 +22,26 @@ Class | Method | HTTP request | Description
 *DatasetApi* | [**search**](docs/DatasetApi.md#search) | **POST** /api/dataset-service/datasets/search | Search in dataset(s).
 *DatasetApi* | [**update_dataset**](docs/DatasetApi.md#update_dataset) | **PUT** /api/dataset-service/datasets/{id} | Update dataset.
 *DatasetApi* | [**update_documents**](docs/DatasetApi.md#update_documents) | **PUT** /api/dataset-service/datasets/{id}/datasources/{datasourceId}/documents | Update documents in the datasource of the dataset.
+*UserApi* | [**get_user_profile**](docs/UserApi.md#get_user_profile) | **GET** /api/auth-service/users/me/profile | Get authenticated user&#39;s profile.
 
 
 ## Documentation For Models
 
+ - [BreakpointStrategy](docs/BreakpointStrategy.md)
  - [ChatQuestionRequest](docs/ChatQuestionRequest.md)
  - [ChatQuestionResponse](docs/ChatQuestionResponse.md)
+ - [Chunk](docs/Chunk.md)
  - [ClientToolCall](docs/ClientToolCall.md)
  - [ClientToolDefinition](docs/ClientToolDefinition.md)
  - [ClientTools](docs/ClientTools.md)
+ - [CombiningStrategy](docs/CombiningStrategy.md)
  - [CreateDatasetRequest](docs/CreateDatasetRequest.md)
  - [CreateDocumentsInDatasetRequest](docs/CreateDocumentsInDatasetRequest.md)
  - [CreateDocumentsInDatasourceRequest](docs/CreateDocumentsInDatasourceRequest.md)
+ - [CreateFixedSizeChunksRequest](docs/CreateFixedSizeChunksRequest.md)
+ - [CreateFixedSizeChunksResponse](docs/CreateFixedSizeChunksResponse.md)
+ - [CreateSemanticChunksRequest](docs/CreateSemanticChunksRequest.md)
+ - [CreateSemanticChunksResponse](docs/CreateSemanticChunksResponse.md)
  - [DatasetSearchRequest](docs/DatasetSearchRequest.md)
  - [DatasetSearchResponse](docs/DatasetSearchResponse.md)
  - [DatasetSearchType](docs/DatasetSearchType.md)
@@ -47,8 +57,12 @@ Class | Method | HTTP request | Description
  - [ProteanDatasource](docs/ProteanDatasource.md)
  - [ProteanDocument](docs/ProteanDocument.md)
  - [Question500Response](docs/Question500Response.md)
+ - [Sentence](docs/Sentence.md)
+ - [SimilarityStrategy](docs/SimilarityStrategy.md)
+ - [TextSplittingStrategy](docs/TextSplittingStrategy.md)
  - [UpdateDatasetRequest](docs/UpdateDatasetRequest.md)
  - [UpdateDocumentsRequest](docs/UpdateDocumentsRequest.md)
+ - [User](docs/User.md)
  - [ValidationFailed](docs/ValidationFailed.md)
 
 
