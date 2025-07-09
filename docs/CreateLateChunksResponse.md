@@ -1,11 +1,12 @@
-# DatasetSearchResponse
+# CreateLateChunksResponse
 
 
 ## Properties
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**documents** | [**List[ProteanDocument]**](ProteanDocument.md) | The list of documents that match the search criteria. | [optional] 
+**chunks** | [**List[Chunk]**](Chunk.md) | The chunks of text. | [optional] 
+**model_id** | **str** |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

@@ -1,11 +1,12 @@
-# DatasetSearchResponse
+# CreateDatasourceFromFileRequest
 
 
 ## Properties
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**documents** | [**List[ProteanDocument]**](ProteanDocument.md) | The list of documents that match the search criteria. | [optional] 
+**file** | **bytearray** | File to upload | 
+**datasource_request** | [**CreateDatasourceRequest**](CreateDatasourceRequest.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

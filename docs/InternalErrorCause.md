@@ -1,11 +1,13 @@
-# DatasetSearchResponse
+# InternalErrorCause
 
 
 ## Properties
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**documents** | [**List[ProteanDocument]**](ProteanDocument.md) | The list of documents that match the search criteria. | [optional] 
+**stack_trace** | [**List[InternalErrorCauseStackTraceInner]**](InternalErrorCauseStackTraceInner.md) |  | [optional] 
+**message** | **str** |  | [optional] 
+**localized_message** | **str** |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

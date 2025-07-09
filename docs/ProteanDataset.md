@@ -9,6 +9,7 @@ Name | Type | Description | Notes
 **name** | **str** | The name of the dataset. | [optional] 
 **updated_on** | **datetime** | The date timestamp for when the dataset was last updated. | [optional] 
 **datasources** | [**List[ProteanDatasource]**](ProteanDatasource.md) | List of data sources contained within the dataset. | [optional] 
+**metadata** | **Dict[str, str]** | The &lt;key,value&gt; pairs which are used to annotate the dataset. | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 
