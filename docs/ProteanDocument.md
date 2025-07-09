@@ -9,6 +9,7 @@ Name | Type | Description | Notes
 **text** | **str** | The document content. | 
 **metadata** | **Dict[str, object]** | The &lt;key,value&gt; pairs which are used to annotate the document. This could be used in full text search or similarity search. | [optional] 
 **score** | **float** | Score based on relative relevance to the search query. | [optional] 
+**embedding** | **List[float]** | Numerical vector representation capturing semantic meaning of text. | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

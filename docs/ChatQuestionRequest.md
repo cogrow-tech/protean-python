@@ -5,8 +5,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**model** | **str** | ID of the model to use when generating the response. | 
-**system_message** | **str** | The system message to use when generating the response. | 
+**model** | **str** | ID of the model to use when generating the response. | [optional] 
+**system_message** | **str** | The system message to use when generating the response. | [optional] 
 **user_message** | **str** | The user prompt to generate response for. | 
 **temperature** | **float** | Affects the level of creativity that should be applied when generating response. Accepts values from 0.0 to 1.0 where higher value implies higher level of creativity applied during generation. | [optional] [default to 0.4]
 **datasets** | **List[str]** | The datasets to be used for RAG purposes during generation. Expected values are either dataset GUID or &#39;*&#39;, where &#39;*&#39; implies to use all datasets that are available to you. | [optional] 

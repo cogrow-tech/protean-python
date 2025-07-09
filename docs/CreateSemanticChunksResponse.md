@@ -6,6 +6,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **chunks** | [**List[Chunk]**](Chunk.md) | The chunks of text. | [optional] 
+**model_id** | **str** |  | [optional] 
 **threshold** | **float** | The threshold value used to create breakpoints. This calculated based on breakpointStrategy and breakpointThresholdTuner from the request. | [optional] 
 **breakpoints** | **List[int]** | The breakpoints created where distance/gradient &gt;&#x3D; threshold value. | [optional] 
 **sentences** | [**List[Sentence]**](Sentence.md) | The sentences used to create chunks. | [optional] 
